@@ -1,16 +1,13 @@
-
-@font-face {
-   font-family: 'Allan';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Allan'), local('Allan-Regular'), url(../fonts/Allan.ttf) format('trueType');
+*{
+  margin:0;
+  padding:0;
 }
+
 body{
   overflow: hidden;
 }
 .hole {
   position: absolute;
-  top: 45%;
   left: 49%;
   z-index: 2;
   -webkit-transform: rotate(45deg);
@@ -21,44 +18,38 @@ body{
 i {
   display: block;
   position: absolute;
-  width: 140px;
-  height: 140px;
-  left: -70px;
-  top: -70px;
-  border-radius: 70px 100px;
 
 }
 
-.holder{
-    background: url('../img/mirror.png');
-  background-color: #000;
-    margin: 0 auto;
-    height: 500px;
-    position: relative; 
- 
-    width: 1000px;
+
+.center{
+
+position: relative;
+
 }
-
-
+.mirror{
+width:100%;
+position: absolute;
+}
+.main{
+width:100%;
+  margin:0 auto;
+}
 .imageHolder
 {
-  position: absolute;
-  background: url("../img/pic.jpg") no-repeat;
-opacity: 0;
- 
 
-  width: 320px;
-  height:370px;
-  border-radius: 100px;
-top:  50px;
-left: 325px;
+  opacity: 0;
+  position: absolute;
+  width: 30%;
+  border-radius: 150px;
+
+
 }
 
 #queryHolder{
-
-  font-family: 'Allan', cursive;
-  font-size: 45px;
-  width: 70%;
+height:50px;
+text-align: center;
+  font-size: 40px;
 margin: 0 auto;
-height:100px;
+
 }

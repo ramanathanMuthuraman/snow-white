@@ -1,4 +1,4 @@
-var text="Magic Mirror On The Wall, who is the fairest in the land?";
+var text="Mirror Mirror On The Wall!! who is the fairest of all?";
 var temp=text;
 var index=0,c=0;
 var replaceString="fairest",newString="sweetest";
