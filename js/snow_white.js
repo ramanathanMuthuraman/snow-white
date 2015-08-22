@@ -4,7 +4,7 @@ $(document).ready(function(){
 	var width = $(".center").width();
 	var height = $("#queryHolder").height()+$(".mirror").height()*0.15;
 	$(".imageHolder").css({
-	//	top:$(".mirror").height()*0.15,
+		top:$(".mirror").height()*0.1,
 		left: width*0.5-$(".imageHolder").width()*0.55
 	});
 	$(".hole").css({"top":height+"px"});
