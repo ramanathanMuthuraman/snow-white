@@ -24,10 +24,10 @@ body {
 
 .hole.no-animation {
     background-image: url("../img/pic.jpg");
-    background-size:100% 100%;
+    background-size: 100% 100%;
 }
 
-.hole.no-animation p{
+.hole.no-animation p {
     display: none;
     animation: none;
 }
@@ -75,7 +75,7 @@ p:nth-child(3) {
     height: 10vh;
     box-sizing: border-box;
     text-align: center;
-    font-size: 40px;
+    font-size: 20px;
     margin: 0 auto;
 
 }
